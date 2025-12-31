@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleet - Morocco Luxury Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Morocco Luxury Car</div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="fleet.html" class="nav-link">Fleet</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <button id="lang-toggle" class="lang-toggle">FR</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h1 id="fleet-title">Fleet</h1>
+            <div class="fleet-grid">
+                <div class="fleet-category">
+                    <h2 id="executive-title">Executive</h2>
+                    <p id="executive-text">Refined sedans for professional journeys, embodying authority and comfort.</p>
+                </div>
+                <div class="fleet-category">
+                    <h2 id="luxury-title">Luxury</h2>
+                    <p id="luxury-text">Opulent SUVs and limousines, designed for distinguished travel.</p>
+                </div>
+                <div class="fleet-category">
+                    <h2 id="performance-title">Performance</h2>
+                    <p id="performance-text">High-performance vehicles for enthusiasts seeking exhilaration.</p>
+                </div>
+                <div class="fleet-category">
+                    <h2 id="elite-title">Elite</h2>
+                    <p id="elite-text">Exclusive models, reserved for the most discerning clientele.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Morocco Luxury Car | Private Mobility Services</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Morocco Luxury Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Morocco Luxury Car</div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="fleet.html" class="nav-link">Fleet</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <button id="lang-toggle" class="lang-toggle">FR</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h1 id="services-title">Services</h1>
+            <ul class="services-list">
+                <li id="service-1">Airport VIP delivery and transfers</li>
+                <li id="service-2">Private chauffeur services</li>
+                <li id="service-3">Long-term luxury rental</li>
+                <li id="service-4">Events and special occasions</li>
+                <li id="service-5">Discretion and security protocols</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Morocco Luxury Car | Private Mobility Services</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morocco Luxury Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Morocco Luxury Car</div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="fleet.html" class="nav-link">Fleet</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <button id="lang-toggle" class="lang-toggle">FR</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 id="hero-title">Private Mobility, Redefined</h1>
+                <p id="hero-subtitle">Discreet, elite luxury car rental and private mobility services in Morocco.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/1234567890" class="cta-primary" id="cta-primary">Request via WhatsApp</a>
+                    <a href="fleet.html" class="cta-secondary" id="cta-secondary">View Fleet</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Morocco Luxury Car | Private Mobility Services</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
